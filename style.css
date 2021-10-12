@@ -1,0 +1,85 @@
+/*common styles*/
+* {
+    box-sizing: border-box;
+    list-style-type: none;
+}
+.flex {
+    display: flex;
+}
+
+/*header*/
+header{
+    background: #222;
+    width: 100%;
+    height: 75px;
+}
+
+.container{
+    width: 1600px;
+    margin: 0 auto;
+
+}
+.header-content{
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-left{
+    margin-top: 18px;
+    margin-left: 231px;
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+}
+.header-right{
+    margin-top: 18px;
+    margin-right: 231px;
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+}
+.logo{
+    margin-right: 41px;
+}
+.header-right--item{
+    margin-right: 33px;
+}
+.main-page-picture{
+    background: #F1E4E6;
+    height: 764px;
+}
+.main-page-picture--text {
+    align-items: center;
+    text-transform: uppercase;
+    font-size: 48px;
+}
+
+h1 {
+    font-size: 48px;
+}
+
+/*categories & accesories*/
+.categories{
+    justify-content: space-around;
+}
+
+.category-item {
+    height: 260px;
+    width: 360px;
+}
+
+.cat-item1 {
+    background-image: url("images/cat1.png");
+}
+
+.cat-item2 {
+    background-image: url("images/cat2.png");
+}
+
+.cat-item3 {
+    background-image: url("images/cat3.png");
+}
+
+.cat-item4 {
+    background-image: url("images/cat4.png");
+}
